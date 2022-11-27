@@ -2,7 +2,7 @@
 <suite parallel="false" name="Suite">
   <test name="Test">
     <classes>
-      <class name="core.ExtentReport"/>
+      <class name="test.TestCaseExecution"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
