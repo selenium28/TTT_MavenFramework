@@ -26,7 +26,7 @@ public class ExtentReport {
 	@BeforeTest
 	public void beforeTest() {
 		
-		htmlRepoter = new ExtentHtmlReporter(System.getProperty("user.dir")+"/ExtentReport/ExtentHTMLReport.html");	
+		htmlRepoter = new ExtentHtmlReporter(System.getProperty("user.dir")+"/ExtentReport3/ExtentHTMLReport.html");	
 		reports = new ExtentReports();
 		reports.attachReporter(htmlRepoter);
 		
@@ -44,7 +44,7 @@ public class ExtentReport {
 		test.log(Status.INFO, "Test Case Start");
 		test.assignCategory("P0");
 		
-		System.setProperty("webdriver.chrome.driver", "Resources/chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "Driverss/chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
 		

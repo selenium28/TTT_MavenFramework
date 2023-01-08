@@ -5,9 +5,11 @@
     <classes>
       <class name="test.TestCaseExecution">
         <methods>
-          <include name="login"/>
+          <include name="test_case_3"/>
           <include name="setup"/>
           <include name="stop"/>
+          <include name="myInfo"/>
+          <include name="getResult"/>
           <include name="start"/>
           <include name="teardown"/>
         </methods>
